@@ -25,7 +25,8 @@
     "node"
   ],
   "scripts": {
-    "build-db": "node src/appendDB.js"
+    "append-db": "node src/appendDB.js",
+    "append-json": "node src/appendJSON.js"
   },
   "files": [],
   "directories": {},

@@ -1,0 +1,4 @@
+[
+  { "hello": "from JSON", "n": "5", "nedbIsAwesome": "true", "fruits": ["apple", "orange", "pear"], "infos": { "name": "nedb" }},
+  { "hello": "more JSON", "n": "10", "nedbIsAwesome": "true", "fruits": ["pineapple", "acai"], "infos": { "name": "foundry" }}
+]

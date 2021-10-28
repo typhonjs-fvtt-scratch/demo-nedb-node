@@ -9,10 +9,15 @@ How to use:
 - Enter `git clone https://github.com/typhonjs-fvtt-scratch/demo-nedb-node.git`
 - Enter `cd demo-nedb-node`
 - Enter `npm install`
-- Enter `npm run build-db`
+- Enter `npm run append-db` (append from docs array in `./src/appendDB.js`)
+  * or
+- Enter `npm run append-json` (append from `./data/data.json`)
 
 A file `./db/test.db` is created with the contents of the `docs` array in the script `./src/appendDB.js`. Every time you 
-run this NPM script it will append the contents of `docs` to `./db/test.db`.   
+run these NPM scripts they will append the contents of `docs` to `./db/test.db`.   
+
+Also an example script of loading docs from a JSON file (`./data/data.json`) and appending the DB is located in 
+`./src/appendJSON.js`.
 
 Modify to do what you need to accomplish. Do peruse the [NeDB API docs](https://github.com/louischatriot/nedb#api) and
 other sources of NeDB online to learn how to do more with NeDB. 
