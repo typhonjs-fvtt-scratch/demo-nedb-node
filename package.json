@@ -1,0 +1,35 @@
+{
+  "name": "demo-nedb-node",
+  "version": "0.0.0",
+  "homepage": "https://github.com/typhonjs-fvtt-scratch/demo-nedb-node",
+  "description": "Provides an example using NeDB with Node / NPM scripts.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "typhonrt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typhonjs-fvtt-scratch/demo-nedb-node.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nedb": "^1.8.0"
+  },
+  "keywords": [
+    "foundry vtt",
+    "fvtt",
+    "nedb",
+    "node"
+  ],
+  "scripts": {
+    "build-db": "node src/appendDB.js"
+  },
+  "files": [],
+  "directories": {},
+  "bugs": {
+    "url": "https://github.com/typhonjs-fvtt-scratch/demo-nedb-node/issues"
+  }
+}
